@@ -43,7 +43,7 @@ p {
 .img {
     text-align: center;
     display: flex;
-    max-width: 100%;
+    border-radius: 0dvh;
 
   
 }
@@ -69,6 +69,9 @@ h4 {
 }
 .ingredients-list li {
     margin: 10px 0;
+}
+footer{
+    text-align: center;
 }
 
 
