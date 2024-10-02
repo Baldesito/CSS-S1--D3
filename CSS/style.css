@@ -1,3 +1,74 @@
-body {
-    
+*
+/** Generale del body **/
+
+header{
+    text-align: center;
 }
+body, html {
+    margin: 100px;
+    margin-top: 0;
+    text-align: left;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+
+
+}
+/* Contenitore principale */
+.container{
+
+   
+}
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.pi {
+    text-align: center;
+}
+p {
+    font-family: platino;
+}
+.FEATURE {
+    color: red;
+    font-size: larger;
+}
+
+.uno {
+    text-align: center;
+    margin-top: rgba(243, 243, 161, 0.486);
+    color: rgb(55, 96, 9);
+    background-color: rgba(243, 243, 161, 0.486);
+    border-radius: 0cap;
+}
+.img {
+    text-align: center;
+    display: flex;
+    max-width: 100%;
+
+  
+}
+/* Stili per l'intestazione */
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+h4 {
+    font-size: larger;
+    border: #333;
+    display: inline-block;
+
+
+}
+
+
+/* Stili per la lista degli ingredienti e le istruzioni */
+.ingredients {
+    list-style-type: none;
+    padding: 0;
+}
+.ingredients-list li {
+    margin: 10px 0;
+}
+
+
